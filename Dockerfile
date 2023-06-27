@@ -8,4 +8,4 @@ RUN chown -R worker /home/worker
 WORKDIR /home/worker
 USER 1000
 
-CMD ["python3", "train.py"]
+CMD ["python3", "client.py"]

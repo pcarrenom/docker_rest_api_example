@@ -1,6 +1,10 @@
 import requests, time
 
-api_url = "http://127.0.0.1:8000"
+
+# # Local
+# api_url = "http://127.0.0.1:8000"
+# # Docker
+api_url = "http://host.docker.internal:8000"
 
 # Create process
 
